@@ -1,0 +1,245 @@
+body{
+    box-sizing: border-box;
+    width:100%;
+    height:100%;
+    padding: 0px;
+    margin:0px;
+    font-family: sans-serif;
+}
+
+nav .container-fluid{
+    padding:0 8%;
+}
+
+.navbar-brand{
+    padding-left: 40px;
+
+}
+.navbar .nav-item{
+    padding: 0 1rem;
+}
+
+.navbar a{
+    color: #5856BA;
+    font-weight: 600;
+}
+
+.hero{
+    position: relative;
+    top:55px;
+}
+
+.main{
+    padding:2% 5% 3% 10%;
+    background-color: #E0DAFB;
+    width:100%;
+    height:100%;
+}
+
+.main h1{
+    color: #5856BA;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main p{
+    color:#2F4F4F;
+    font-size: 1.2rem;
+}
+img{
+    width:100%;
+}
+.white-btn{
+    padding: 0.5rem 1.5rem;
+    background-color: #ffffff;
+    border:0.1875rem solid #ffffff;
+    color:#2F4F4F;
+    font-weight: 700;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    transition: all .4s ease-out 0s;
+}
+.white-btn:hover{
+    background-color: transparent;
+    color:#5856BA;
+    border-color:#5856BA;
+}
+
+
+#blogs{
+    padding: 2% 15% 10% 15%;
+}
+
+#blogs h2{
+    text-align: center;
+    color:#5856BA;
+    font-size: 2.5rem;
+    padding-bottom: 10%;
+}
+.card{
+    margin:1% 0px;
+}
+
+.card .btn{
+    background-color: #5856BA;
+} 
+
+#about{
+    padding: 7% 0%;
+    text-align: left;
+    background: url("assets/Project_44-04.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size:50%;
+}
+
+#about .container{
+    margin:2% 45%;
+    width:45%;
+}
+
+.about h4{
+    color:#514EDD;
+    font-size: 2rem;
+}
+
+#features{
+    background-color: #fff;
+    position:relative;
+    padding: 6% 15% 4% 15%;
+   
+}
+
+#features h4{
+    color:#5856BA;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.feature-title{
+    font-size:1.5rem;
+}
+.feature-box{
+    text-align:center;
+    padding:5%;
+}
+
+.icon{
+    color:#5856BA;
+    margin-bottom: 1rem;
+}
+
+#testimonial{
+    background-color:  #E0DAFB;
+    padding-bottom: 5%;
+}
+
+.testimonial h2{
+    padding:5%;
+    color:#5856BA;
+    font-size: 2.5rem;
+}
+
+.testimonial .carousel-item{
+    padding: 3rem ;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    text-align: center;
+}
+.testimonial p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 10%;
+}
+
+.testimonial .carousel-indicators{
+    bottom:-3.2rem;
+}
+
+.testimonial .carousel-indicators button{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    background-color:#ffffff;
+}
+.testimonial .carousel-indicators button.active{
+    opacity:1;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    filter: invert(100%);
+}
+
+#clients{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#clients img{
+    width:20%;
+}
+
+#clients h2{
+    
+    color:#5856BA;
+    font-size: 2.5rem;
+}
+
+#clients h4{
+    font-weight: 700;
+}
+#clients p{
+    font-weight: 700;
+    
+}
+
+.clientimgs{
+    padding:2% 4% ;
+}
+
+#contact{
+    padding:2% 10% 8% 10%;
+    
+}
+
+#contact h4{
+    text-align: center;
+    color:#5856BA;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+#contact .container{
+    width:70%;
+}
+
+.form-label{
+    padding-top:2%;
+}
+.footer{
+    background:#E0DAFB;
+ }
+ .footer .footer-link{
+    font-size: 1rem;
+    color:#5856BA;
+    padding:0 1.875rem;
+    font-weight: 500;
+    text-decoration: none;
+ }
+ .footer .footer-link:hover{
+    color:#5856BA !important;
+ }
+ .footer a i{
+    font-size: 1.5rem;
+    color:#5856BA;
+    padding:0 1rem;
+ }
+ .footer a{
+    color:#5856BA;
+ }
+ .footer p{
+    color:#5856BA;
+ }
+
+ .footer p.copyright{
+    padding-top: 2%;
+ }
